@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""main.py — news-image-20261122 entrypoint (v4).
+"""main.py — news-image-20261122 entrypoint (v5).
 
-The entry image is pre-rendered on the build machine by build_v4.py
+The entry image is pre-rendered on the build machine by build_v5.py
 (code-drawn flat 2D vector, 1024x1024 PNG, well under 1 MiB) and
 shipped in this repo as entry.png. This program does no image work:
 it only validates the shipped file and copies it byte-for-byte into
@@ -43,6 +43,8 @@ def main():
         return fail("entry.png is empty")
     if data[:8] != PNG_MAGIC:
         return fail("entry.png is not a PNG file")
+    if len(data) < 24 or data[12:16] != b"IHDR":
+        return fail("entry.png has no valid PNG IHDR chunk")
     # PNG IHDR: width and height are big-endian uint32 at bytes 16-24.
     # Verifies the <= 1024x1024 output limit inside the grader, using
     # only the standard library (no Pillow in the grader image).

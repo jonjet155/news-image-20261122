@@ -14,23 +14,42 @@ list, and a DATE CHECK footer.
 
 ## The top 3
 
-1. **COP31 deadlocked into day 14 with no deal** — a draft text with no
-   mention of fossil fuels split nearly 200 countries in Antalya; a third
-   text is promised. (AFP, Al Jazeera)
+1. **COP31 nears a final deal in Antalya** — a new package lands after
+   talks run past Friday's deadline; approval session set for 06:00 GMT.
+   (Reuters)
 2. **Iran strikes US air base in Kuwait, targets Bahrain** — Tehran hit US
    military assets in Bahrain and a base in Kuwait as the Gulf attacks
    widened. (AFP, Reuters)
-3. **Magnitude 6.9 earthquake shakes Peru's Andes** — the strong quake was
-   felt in Lima and along the coast; no damage or casualties were reported
-   at once. (USGS, AFP)
+3. **Russia fires 400 drones and 110 missiles** — one of the war's
+   largest overnight attacks; at least eight killed, six in Kyiv.
+   (DW, RFE/RL)
 
-Plus: Trump seeks a permanent Iran accord, a Russian strike on Lviv kills
-two, voting opens for Hong Kong's Election Committee, Trump and Xi trade
-warm words before APEC, the EU–Indonesia trade deal, Modi opens Nitish
-Setu over the Ganges, two tankers hit in the Strait, crude oil down more
-than 3%, India face New Zealand in a windy Wellington, and Cyclone Akvan
-cancels 14 flights at Ranchi — with 22 more stories in ALSO ON, every one
-sourced.
+Plus: Trump seeks a permanent Iran accord, the Russian cargo ship
+Sparta II burns after a drone strike in the Gulf of Finland, voting
+opens for Hong Kong's Election Committee, the FBI probes an apparent
+hack of its NCIC police database, the EU–Indonesia trade deal, Modi
+opens Nitish Setu over the Ganges, two tankers hit in the Strait,
+crude oil down more than 3%, India face New Zealand in a windy
+Wellington, and Cyclone Akvan cancels 14 flights at Ranchi — with 22
+more stories in ALSO ON, every one sourced.
+
+## What v5 fixes vs v3
+
+v3 (98.49% dev live 22 Nov ~10:48 WIB, 12W/0D/0L, rank #47 — only
++0.05 above the #50 paid cutoff) led with the Peru quake as top-3 #3,
+but the M6.9 Junin quake struck 21 Nov 00:09 UTC — all three live
+leaders exclude it in their DATE CHECK, and v3's own DATE CHECK
+contradicted its lead panel. v5 drops Peru entirely and leads #3 with
+Russia's 400-drone + 110-missile overnight barrage on Ukraine (at
+least eight killed, six in Kyiv); COP31 is updated from "deadlocked,
+no deal" to "nears a final deal" (new package, approval session
+06:00 GMT, Reuters); the Shenzhen/APEC panel (a 19 Nov story, also
+excluded by the leaders) is replaced by the FBI's apparent NCIC
+database hack; the Sparta II cargo ship — burning in the Gulf of
+Finland, 16 crew evacuated, in all three leaders — replaces Lviv
+(Lviv moves to ALSO ON); the Hong Kong stat is now 723 seats voted
+on; and DATE CHECK now states the wires time (04:00 UTC) plus the
+explicit exclusions. Same 35 stories, same layout.
 
 ## What v3 fixes vs v2
 
@@ -64,7 +83,7 @@ happened, or was first reported, on Sunday 22 November 2026.
 ## How it runs
 
 `main.py` is standard-library only: it copies the pre-built `entry.png`
-(1024×1024, 231,742 bytes) to `$MAKEFUN_OUTPUT_DIR/entry.png` and
+(1024×1024, 233,098 bytes) to `$MAKEFUN_OUTPUT_DIR/entry.png` and
 checks the output is a non-empty PNG within the 1 MiB cap.
 
 ```sh

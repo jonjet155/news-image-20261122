@@ -1,8 +1,8 @@
 # Sunday 22 November 2026 — The World in One Day
 
-[![make.fun](https://img.shields.io/badge/make.fun-news--image--20261122-red)](https://make.fun/bounty/news-image-20261122)
-[![Prize $100](https://img.shields.io/badge/prize-%24100%20USDC-gold)](https://make.fun/bounty/news-image-20261122)
-[![Deadline 24 Nov 2026](https://img.shields.io/badge/deadline-24%20Nov%202026-blue)](https://make.fun/bounty/news-image-20261122)
+[![make.fun](https://make.fun/badge/news-image-20261122.svg)](https://make.fun/bounty/news-image-20261122)
+[![rank](https://make.fun/badge/news-image-20261122/jonjet155/news-image-20261122/rank.svg)](https://make.fun/bounty/news-image-20261122)
+[![reward](https://make.fun/badge/news-image-20261122/jonjet155/news-image-20261122/reward.svg)](https://make.fun/bounty/news-image-20261122)
 
 One image that sums up Sunday 22 November 2026's world news: **36 stories,
 6 continents, one page** — a serif masthead, a red top-3 banner, ten

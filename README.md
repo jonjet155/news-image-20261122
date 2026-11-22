@@ -32,6 +32,18 @@ than 3%, India face New Zealand in a windy Wellington, and Cyclone Akvan
 cancels 14 flights at Ranchi — with 22 more stories in ALSO ON, every one
 sourced.
 
+## What v3 fixes vs v2
+
+v2 (97.84% dev, 10W/2D/0L, rank ~100) printed the oil price as
+"Rs 7,842 a barrel" — crude is priced in US dollars, so v3 says
+$60.9 / BBL. v2's Hong Kong votes panel was a big-number panel; v3
+draws a real voting scene (ballot box, red-check ballot, voter
+queue). v2's Peru panel was brown mountains that read as a generic
+landscape; v3 anchors it on a bold red seismograph trace over a
+small Andes ridge, so the quake reads at a glance. The masthead now
+states every story is dated Sunday 22 November 2026, and the Gulf
+panel's missile trails are thicker. Same 35 stories, same layout.
+
 ## What v2 fixes vs v1
 
 v1 (97.47%, ~#300) led with the Poland missile incursion — which happened
@@ -52,8 +64,8 @@ happened, or was first reported, on Sunday 22 November 2026.
 ## How it runs
 
 `main.py` is standard-library only: it copies the pre-built `entry.png`
-(1024×1024, 232,205 bytes) to `$MAKEFUN_OUTPUT_DIR/entry.png` and
-checks the output is non-empty and within the 1 MiB cap.
+(1024×1024, 231,742 bytes) to `$MAKEFUN_OUTPUT_DIR/entry.png` and
+checks the output is a non-empty PNG within the 1 MiB cap.
 
 ```sh
 mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
